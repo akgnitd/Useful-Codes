@@ -1,0 +1,12 @@
+different types of i frames
+
+<iframe width="100%" height="300px" src="site/index.html" name="iframe_a"></iframe>
+<p><a href="http://www.hellodk.in" target="iframe_a">dk</a></p>
+
+
+<iframe src="demo_iframe.htm" style="border:5px dotted red"></iframe>
+
+
+<iframe src="hellodk.in" style="border:none"></iframe>
+
+<iframe src="demo_iframe.htm" width="200" height="200"></iframe>
