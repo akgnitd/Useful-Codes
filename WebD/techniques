@@ -1,0 +1,35 @@
+STYLE TECHNIQUES
+
+<h1 style="color:blue;">Hello World </h1>
+<h1><span style="color:blue">Hello World</span> </h1>
+
+<h1 style="font-family:impact;">This is a heading</h1>
+
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+
+
+<h1 style="text-align:center;">Centered heading</h1>
+<p style="text-align:center;">This is a paragraph.</p>
+
+
+FORMATTING
+
+<strong>dk</strong>
+<b>This text is bold.</b>
+
+<h2>HTML <small>Small</small> Formatting</h2>               small font size decreasd
+<h2>HTML <mark>Marked</mark> Formatting</h2>                Marked will b given a backgroung color
+
+<p>My favorite color is <del>blue</del> red.</p>            blue is crossed
+<ins>color</ins>                                            color is underlined
+
+<p>This is <sub>subscripted</sub> text.</p>
+<p>This is <sup>superscripted</sup> text.</p>               suffix type
+
+
+Quotations
+
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>         The HTML <q> element defines a short quotation.
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>           Marking abbreviations can give useful information  .                                                                                            to browsers, translation systems and search-engines
