@@ -1,0 +1,12 @@
+sudo add-apt-repository universe                          # only for standard Ubuntu
+
+sudo add-apt-repository ppa:mkusb/ppa                     # and press Enter
+sudo apt-get update
+sudo apt-get install mkusb mkusb-nox usb-pack-efi
+
+sudo apt-get update
+sudo apt-get dist-upgrade
+
+sudo apt-get update
+sudo apt-get install mkusb guidus dus mkusb-common
+sudo apt-get install mkusb-nox
