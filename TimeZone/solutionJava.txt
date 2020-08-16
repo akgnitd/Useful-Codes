@@ -1,0 +1,11 @@
+Any frameworks(Hibernate, JPA, etc) is fine.
+
+SAVING:
+Always Keep the date column in Entity as java.sql.Timestamp
+While storing the time in ur database, it will always save in ur database as UTC unless you have moved ur db in some other zone.
+No worries, for that as well. 
+If your system is in EDT and db is in UTC, it will store the date as <<UR_DATE_TIMESTAMP>>+4:00 since EDT is UTC-4 so it will add 4 and store as UTC.
+If your system is in EDT and db is in EDT(UTC-4), it will store the date as <<UR_DATE_TIMESTAMP>>+4:00+4:00. This additional +4 is because your db is also lagged by UTC.
+
+FETCHING:
+You will get the same datetime in ur application unless you change ur server timezone.
